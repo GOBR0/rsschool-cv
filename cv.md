@@ -1,4 +1,4 @@
-![photo](Golf.jpg)
+![photo](/assets/img/Golf.jpg)
 ___
 
 # **Vadim** Petrochenko
