@@ -148,3 +148,33 @@ width: 100%;
 .projects h3 {
 width: 48%
 }
+
+.github_nav-link{
+    color: cyan;
+    padding-left: 35px;
+    position: relative;
+    text-decoration: none;
+            
+  }
+  .github_nav-link:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      width: 32px;
+      height: 32px;
+      display: block;
+      background-image:url(./assets/svg/github_icon_32.png) ;
+     
+  }
+  
+  .github_nav-link:hover{
+     color:#F7CB15;
+  }
+  .footer-container {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+  }
