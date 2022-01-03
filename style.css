@@ -1,3 +1,21 @@
-.text-block{
-    background-color: blue;
+html{
+    scroll-behavior: smooth;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+  }
