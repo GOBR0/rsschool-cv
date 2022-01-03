@@ -19,3 +19,39 @@ body{
 *:before {
     box-sizing: border-box;
   }
+
+  .container{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+@media (max-width:1440px){
+.container {
+     padding: 0;
+}
+}
+  .header {
+background-color: #292935;
+    
+}
+.nav{
+    text-transform: uppercase;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav-link{
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: cyan;
+    transition: color .2s linear;
+}
+
+.nav-link:hover{
+    color: #F7CB15; 
+}
